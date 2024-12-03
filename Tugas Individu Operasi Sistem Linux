@@ -1,0 +1,23 @@
+mkdir tugas_sistem_operasi
+ls
+touch tugas_sistem_operasi data1.txt tugas_sistem_operasi data2.txt
+ls
+mkdir tugas_sistem_operasi/backup
+mv tugas_sistem_operasi/data2.txt tugas_sistem_operasi/backup
+ps aux | grep gedit
+kill 1960
+touch tugas_sistem_operasi script.sh
+chmod 700 tugas_sistem_operasi script.sh
+ls -l tugas_sistem_operasi script.sh
+touch script.sh 
+vi script.sh
+#!/bin/bash
+echo "Waktu saat ini:" $date
+echo "Nama pengguna yang sedang login:" $USER
+echo "Total penggunaan disk di sistem:"'
+echo "df -h"
+cat script.sh
+chmod +x script.sh
+./script.sh
+bash tugas_sistem_operasi info_system.sh
+ping -c 5 WWW.google.com
